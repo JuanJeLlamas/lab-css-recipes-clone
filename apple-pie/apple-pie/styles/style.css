@@ -1,0 +1,70 @@
+
+html {font-family:Arial}
+div .fotomanzana{
+
+    width: 1800px; height:600px;
+}
+img {
+width: 1800px; height:900px;
+    
+  
+  
+}
+.fotomanzana h1 {
+    font-size: 100px;
+    position:absolute;
+    color: white;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.descripcion {
+   margin-left: 140px; margin-top: 100px;
+    width: 1470px;
+    align-content: center;
+    text-align: center;
+   
+}
+.descripcion p { 
+
+    margin: 60px 30px 30px 200px;
+    font-size: 36px;
+text-align: center;
+text-justify: center;
+
+}
+
+.descripcion img{
+    margin-left: 100px;
+    width: 500px;
+    height: 80px;
+}   
+ul li:before{ content:"-"; position:relative; left:-8px;}
+
+ ul li{ text-indent:-5px; list-style-type: none; margin-left: 100px;}
+ 
+ ol li:before{ content:")"; position:relative; left:-8px;}
+ .ingredientes { margin-left: 100px; margin-top: 80px;
+    font-size: 27px;
+ }
+.ingredientes header {
+    margin-left: 120px;
+    
+}
+.direcciones header {
+    margin-top: 60px;
+    margin-left: 209px;
+    font-size:27px;
+    
+}
+.ingredientes hr {margin-right: 120px}
+.ingredientes img{
+    margin-left: 550px; margin-top: 50px;
+    width: 450px;
+    height: 95px;
+}  
+.direcciones ol { width: 1100px;
+    margin-left: 190px;
+    font-size: 27px;
+    margin-bottom: 150px;
+}
